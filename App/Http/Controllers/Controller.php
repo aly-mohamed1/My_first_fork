@@ -15,7 +15,7 @@ class Controller
     }
     protected static function success($message)
     {
-        // 
+        return "You have succeded" ;
     }
     protected static function error($message)
     {
