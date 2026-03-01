@@ -8,4 +8,14 @@ $result = array_filter($numbers, function ($number) {
 });
 
 
+## Question 2
+
+$numbers = [10, 15, 20, 25, 30];
+$square = array_map(function ($number) {
+    return $number ** 2;
+    },
+    $numbers
+);
+
+
 
