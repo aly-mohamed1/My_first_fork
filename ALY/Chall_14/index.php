@@ -79,7 +79,13 @@ $upper = array_map( function($item){
 },
 $products);
 
+## Question 8
 
+$numbers = [3, 6, 9, 12, 15, 18];
+
+$div = array_filter($numbers, function ($value) {
+    return $value % 2 == 0 and $value % 3 == 0;
+}); 
 
 
 
