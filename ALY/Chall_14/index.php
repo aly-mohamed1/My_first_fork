@@ -102,3 +102,14 @@ $age = array_filter($users, function ($user){
 });
 
 
+## Question 10
+
+$orders = [
+    ['id' => 1, 'total' => 250],
+    ['id' => 2, 'total' => 450],
+    ['id' => 3, 'total' => 300],
+];
+
+$total = array_reduce($orders, function($carry, $order) use($numbers, $orders){
+    return $carry + $order;
+},0);
