@@ -11,5 +11,7 @@
             "email": "magedyaseengroups@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/var-dumper": "^8.0"
+    }
 }
