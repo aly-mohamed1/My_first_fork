@@ -54,4 +54,14 @@ $result = array_reduce($numbers, function ($carry, $number) use ($numbers){
 },0);
 
 
+## Question 6
+
+$products = [
+    ['name' => 'Laptop', 'price' => 15000],
+    ['name' => 'Mouse', 'price' => 200],
+    ['name' => 'Keyboard', 'price' => 500],
+];
+$price = array_filter($products, function ($product) {
+    return $product['price'] > 1000;
+});
 
