@@ -1,17 +1,19 @@
 {
-    "name": "mwjb/app-1",
+    "name": "ali.ahmed/3481-php",
     "autoload": {
         "psr-4": {
-            "App\\": "App/"
+            "App\\": "App/",
+            "Challenges\\":"challenges/"
+            
         }
     },
     "authors": [
         {
-            "name": "Maged Groups",
-            "email": "magedyaseengroups@gmail.com"
+            "name": "Aly Mohamed",
+            "email": "aly.mohamed2707@gmail.com"
         }
     ],
-    "require": {
+    "require-dev": {
         "symfony/var-dumper": "^8.0"
     }
 }
