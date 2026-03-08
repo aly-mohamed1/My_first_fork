@@ -2,7 +2,7 @@
     "name": "ali.ahmed/my_first_fork",
     "autoload": {
         "psr-4": {
-            "aly\\": "aly/"
+            "App\\": "App/"
         }
     },
     "authors": [
