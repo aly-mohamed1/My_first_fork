@@ -1,9 +1,8 @@
 {
-    "name": "alymohamed/3481-php",
-    "name": "alymohamed/3481-php",
+    "name": "ali.ahmed/my_first_fork",
     "autoload": {
         "psr-4": {
-            "App\\": "App/"
+            "aly\\": "aly/"
         }
     },
     "authors": [
@@ -11,6 +10,6 @@
             "name": "Aly Mohamed",
             "email": "aly.mohamed2707@gmail.com"
         }
-    ]
-    
+    ],
+    "require": {}
 }
