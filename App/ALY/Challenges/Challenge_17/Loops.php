@@ -22,3 +22,17 @@ for($i = 2; $i < $terms; $i++){
 }
 
 
+# Pattern Printing
+$h = 5;
+
+for($i = 1; $i <= $h; $i++){
+    for($j = $i; $j < $h; $j++){
+        echo" ";
+    }
+
+    for ($k = 1; $k <= (2 * $i - 1); $k++) {
+        echo "*";
+    }
+    echo "\n";
+}
+
