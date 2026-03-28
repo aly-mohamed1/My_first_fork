@@ -3,6 +3,7 @@
 
 $orders = [
 
+
     [
         'id' => 1,
         'products' => [
@@ -118,7 +119,16 @@ $orders = [
 
 
 
+
 echo '<Hr><h1> orders</h1> ';
+$method=$_SERVER['REQUEST_METHOD'];
+if($method!="GET"){
+    echo "ONLY GET requests are allowed";
+    die;
+}
+
 $orders_json=json_encode($orders);
+
+
 echo $orders_json;
 
