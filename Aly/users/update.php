@@ -1,11 +1,15 @@
 <?php
+$method = $_SERVER["REQUEST_METHOD"] ?? '';
 
-$method = $_SERVER["REQUEST_METHOD"] ?? "";
+if ($method !== 'PUT') die('Only PUT method is allowed!');
 
-if ($method !== "PUT") die("Only put method is allowed");
-
-$id_to_update = $_GET["id"] ?? "";
+$id_to_update = $_GET['id'] ?? '';
 
 echo $id_to_update;
 
-$new_data = $_POST;
+var_dump(file_get_contents('php://input'));
+
+$new_data = file_get_contents('php://input');
+
+// Decodes the JSON string into a PHP associative array
+var_dump( json_decode($new_data, true));
